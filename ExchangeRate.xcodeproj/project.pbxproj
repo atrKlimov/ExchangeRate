@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		A32916E7223850790039F420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32916E6223850790039F420 /* AppDelegate.swift */; };
-		A32916E9223850790039F420 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32916E8223850790039F420 /* ViewController.swift */; };
+		A32916E9223850790039F420 /* CurrenciesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32916E8223850790039F420 /* CurrenciesViewController.swift */; };
 		A32916EC223850790039F420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32916EA223850790039F420 /* Main.storyboard */; };
 		A32916EE2238507B0039F420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32916ED2238507B0039F420 /* Assets.xcassets */; };
 		A32916F12238507B0039F420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32916EF2238507B0039F420 /* LaunchScreen.storyboard */; };
+		A3595C372238568200187046 /* NBU.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3595C362238568200187046 /* NBU.swift */; };
+		A3595C392238F10800187046 /* Currencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3595C382238F10800187046 /* Currencies.swift */; };
+		A3DBAB562239952300FC967B /* RealmDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DBAB552239952300FC967B /* RealmDataBase.swift */; };
+		A3E52F8B22392D8D00BC2726 /* CurrencyRateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E52F8A22392D8D00BC2726 /* CurrencyRateCell.swift */; };
+		A3E52F8D22394C6B00BC2726 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E52F8C22394C6B00BC2726 /* FavoritesViewController.swift */; };
+		A3E52F8F22395A6A00BC2726 /* DataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E52F8E22395A6A00BC2726 /* DataProtocol.swift */; };
+		BD9E6C4AD65CEA289451B81D /* Pods_ExchangeRate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F774F60A29DBCEC66C22C4 /* Pods_ExchangeRate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		082353986A8644DD729CFDA6 /* Pods-ExchangeRate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRate.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExchangeRate/Pods-ExchangeRate.release.xcconfig"; sourceTree = "<group>"; };
+		23B0A6BF6BDC1BF7F267B07C /* Pods-ExchangeRate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExchangeRate/Pods-ExchangeRate.debug.xcconfig"; sourceTree = "<group>"; };
+		86F774F60A29DBCEC66C22C4 /* Pods_ExchangeRate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExchangeRate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32916E3223850790039F420 /* ExchangeRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32916E6223850790039F420 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A32916E8223850790039F420 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A32916E8223850790039F420 /* CurrenciesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesViewController.swift; sourceTree = "<group>"; };
 		A32916EB223850790039F420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A32916ED2238507B0039F420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A32916F02238507B0039F420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A32916F22238507B0039F420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3595C362238568200187046 /* NBU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBU.swift; sourceTree = "<group>"; };
+		A3595C382238F10800187046 /* Currencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currencies.swift; sourceTree = "<group>"; };
+		A3DBAB552239952300FC967B /* RealmDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataBase.swift; sourceTree = "<group>"; };
+		A3E52F8A22392D8D00BC2726 /* CurrencyRateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyRateCell.swift; sourceTree = "<group>"; };
+		A3E52F8C22394C6B00BC2726 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		A3E52F8E22395A6A00BC2726 /* DataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9E6C4AD65CEA289451B81D /* Pods_ExchangeRate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				A32916E5223850790039F420 /* ExchangeRate */,
 				A32916E4223850790039F420 /* Products */,
+				AC329633EB58D7B252AB3C61 /* Pods */,
+				BF6C2FD02F69C43A81B329B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,45 @@
 		A32916E5223850790039F420 /* ExchangeRate */ = {
 			isa = PBXGroup;
 			children = (
-				A32916E6223850790039F420 /* AppDelegate.swift */,
-				A32916E8223850790039F420 /* ViewController.swift */,
+				A3E52F9022395D0A00BC2726 /* Support */,
+				A32916E8223850790039F420 /* CurrenciesViewController.swift */,
+				A3E52F8C22394C6B00BC2726 /* FavoritesViewController.swift */,
+				A3595C382238F10800187046 /* Currencies.swift */,
+				A3E52F8A22392D8D00BC2726 /* CurrencyRateCell.swift */,
+				A3E52F8E22395A6A00BC2726 /* DataProtocol.swift */,
+				A3595C362238568200187046 /* NBU.swift */,
+				A3DBAB552239952300FC967B /* RealmDataBase.swift */,
 				A32916EA223850790039F420 /* Main.storyboard */,
-				A32916ED2238507B0039F420 /* Assets.xcassets */,
-				A32916EF2238507B0039F420 /* LaunchScreen.storyboard */,
 				A32916F22238507B0039F420 /* Info.plist */,
 			);
 			path = ExchangeRate;
+			sourceTree = "<group>";
+		};
+		A3E52F9022395D0A00BC2726 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A32916E6223850790039F420 /* AppDelegate.swift */,
+				A32916ED2238507B0039F420 /* Assets.xcassets */,
+				A32916EF2238507B0039F420 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		AC329633EB58D7B252AB3C61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23B0A6BF6BDC1BF7F267B07C /* Pods-ExchangeRate.debug.xcconfig */,
+				082353986A8644DD729CFDA6 /* Pods-ExchangeRate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF6C2FD02F69C43A81B329B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86F774F60A29DBCEC66C22C4 /* Pods_ExchangeRate.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A32916F52238507B0039F420 /* Build configuration list for PBXNativeTarget "ExchangeRate" */;
 			buildPhases = (
+				A89D6B2B501B4F799653B85C /* [CP] Check Pods Manifest.lock */,
 				A32916DF223850790039F420 /* Sources */,
 				A32916E0223850790039F420 /* Frameworks */,
 				A32916E1223850790039F420 /* Resources */,
+				C7584058712E08741CA99470 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +182,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A89D6B2B501B4F799653B85C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExchangeRate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7584058712E08741CA99470 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExchangeRate/Pods-ExchangeRate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExchangeRate/Pods-ExchangeRate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A32916DF223850790039F420 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A32916E9223850790039F420 /* ViewController.swift in Sources */,
+				A3595C372238568200187046 /* NBU.swift in Sources */,
+				A3E52F8F22395A6A00BC2726 /* DataProtocol.swift in Sources */,
+				A3595C392238F10800187046 /* Currencies.swift in Sources */,
+				A3E52F8D22394C6B00BC2726 /* FavoritesViewController.swift in Sources */,
+				A3DBAB562239952300FC967B /* RealmDataBase.swift in Sources */,
+				A3E52F8B22392D8D00BC2726 /* CurrencyRateCell.swift in Sources */,
+				A32916E9223850790039F420 /* CurrenciesViewController.swift in Sources */,
 				A32916E7223850790039F420 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,8 +395,10 @@
 		};
 		A32916F62238507B0039F420 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B0A6BF6BDC1BF7F267B07C /* Pods-ExchangeRate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2B3H5V7DAM;
 				INFOPLIST_FILE = ExchangeRate/Info.plist;
@@ -291,6 +408,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.ExchangeRate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,8 +416,10 @@
 		};
 		A32916F72238507B0039F420 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 082353986A8644DD729CFDA6 /* Pods-ExchangeRate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2B3H5V7DAM;
 				INFOPLIST_FILE = ExchangeRate/Info.plist;
@@ -309,6 +429,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.ExchangeRate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
